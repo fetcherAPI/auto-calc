@@ -1,0 +1,20 @@
+.range {
+  -webkit-appearance: none;
+  height: 2px;
+  background: #e1e1e1;
+  border-radius: 3px 3px 0px 0px;
+  width: 90%;
+  margin: 0 auto;
+  background-image: linear-gradient(#ff9514, #ff9514);
+  background-repeat: no-repeat;
+  position: relative;
+  top: -2px;
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #ff9514;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

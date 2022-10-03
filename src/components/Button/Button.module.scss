@@ -1,0 +1,40 @@
+.btn {
+  background-color: #ff9514;
+  width: 100%;
+  font-weight: bold;
+  font-size: 2vw;
+  height: 68px;
+  border-radius: 40px;
+  color: white;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #000;
+  }
+  &:active {
+    background-color: #575757;
+  }
+  &:focus {
+    opacity: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    width: 70%;
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    height: 55px;
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn {
+    font-size: 4vw;
+    width: 100%;
+  }
+}

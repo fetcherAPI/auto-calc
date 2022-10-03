@@ -1,0 +1,25 @@
+.priceInfo {
+  width: 30%;
+  h2 {
+    margin: 0;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  color: #575757;
+}
+
+@media screen and (max-width: 1024px) {
+  .priceInfo {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .priceInfo {
+    width: 50%;
+  }
+}

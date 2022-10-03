@@ -1,0 +1,79 @@
+input[type="text"] {
+  font-size: 2em;
+  font-weight: bold;
+  width: 100%;
+}
+.wrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 4px 16px 24px;
+  background-color: #f3f3f4;
+  border-radius: 16px;
+  outline: none;
+  height: 68px;
+  position: relative;
+  border: none;
+  p {
+    width: 5%;
+    display: flex;
+    font-weight: 900;
+    font-size: 40px;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    height: 60px;
+    min-width: 250px;
+  }
+}
+
+.box {
+  width: 100%;
+  color: #575757;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.percentBlock {
+  background-color: #ebebec;
+  box-sizing: border-box;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 1.7vw;
+  width: 15%;
+  border-radius: 25%;
+  height: 140%;
+}
+
+@media screen and (max-width: 1024px) {
+  .percentBlock {
+    width: 10%;
+    font-size: 2.4vw;
+  }
+}
+@media screen and (max-width: 614px) {
+  .percentBlock {
+    width: 15%;
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .percentBlock {
+    width: 15%;
+    font-size: 4vw;
+  }
+}
+
+.percentIcon {
+  position: relative;
+  right: 4%;
+}
