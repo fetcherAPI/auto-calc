@@ -14,7 +14,10 @@
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://fetcherAPI.github.io/auto-calc",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.55.0"
   }
 }
